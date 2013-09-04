@@ -22,4 +22,4 @@ def register(ip, domain, apikey):
 if __name__ == '__main__':
     apikey='Nkg1OHBqdW9QSkxSdGlINVhXNEo6ODUxMzI3OQ=='
     domain = 'multiphrenic.mooo.com'
-    register(get_ip(), domain, apikey)
+    print(register(get_ip(), domain, apikey))
