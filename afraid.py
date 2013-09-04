@@ -1,7 +1,7 @@
 import urllib2
 import re
 import socket
-apikey='Nkg1OHBqdW9QSkxSdGlINVhXNEo6ODUxMzI3OQ=='
+
 
 def get_ip():
     url = 'http://whatsmyip.net'
@@ -20,4 +20,6 @@ def register(ip, domain, apikey):
         return result
 
 if __name__ == '__main__':
-    register(get_ip(), apikey)
+    apikey='Nkg1OHBqdW9QSkxSdGlINVhXNEo6ODUxMzI3OQ=='
+    domain = 'multiphrenic.mooo.com'
+    register(get_ip(), domain, apikey)
